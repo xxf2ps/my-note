@@ -1,1 +1,2 @@
-PHP用包括的情况下不能直接在内联样式表中改变锚元素的颜色及隐藏下划线。只有写在一个标签里才有效。
+PHP用require/include的情况下不能直接在内联样式表中改变锚元素的颜色及隐藏下划线。只有写在a标签里才有效。
+如果用回声输出中文乱码可以用header("content-type:text/html;charset=utf-8");jie'ju'e
